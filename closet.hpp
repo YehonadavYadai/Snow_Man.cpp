@@ -23,7 +23,7 @@ const std::string Eye[4]  = {
 const std::string LeftArmsup[4]  = {
     " ",
     "\\",
-    "",
+    " ",
     " ",
 };
 const std::string LeftArmsdown[4]  = {

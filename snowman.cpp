@@ -66,7 +66,7 @@ std::string ans="";
 //build the snow man part by part
     // part1 (Hat):" HHHHH
     //               HHHHH"
-
+    
     ans.append(items::Hats[arr[0]]);
     ans.append("\n");
     

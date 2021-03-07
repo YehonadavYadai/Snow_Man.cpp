@@ -54,7 +54,7 @@ TEST_CASE("Good snowman code") {
 //check all Nose
     CHECK(snowman(34332212) == string("   _  \n  /_\\ \n\\(O O)/\n ( : ) \n (\" \")"));
     CHECK(snowman(11111111) == string("      \n _===_\n (.,.) \n<( : )>\n ( : )"));
-    CHECK(snowman(12121212) == string("      \n _===_\n<(..o) \n ( : )/\n (\" \")"));
+    CHECK(snowman(12121212) == string("      \n _===_\n (..o)/\n<( : ) \n (\" \")"));
     CHECK(snowman(43312222) == string("  ___ \n (_*_)\n\\(O_.)/\n (] [) \n (\" \")"));
 //check all Right Eye
     CHECK(snowman(31313131) == string("   _  \n  /_\\ \n (O,.) \n/(> <)>\n ( : )"));
@@ -75,7 +75,7 @@ TEST_CASE("Good snowman code") {
 
 //check all Right arm
     CHECK(snowman(31313131) == string("   _  \n  /_\\ \n (O,.) \n/(> <)>\n ( : )"));
-    CHECK(snowman(42424222) == string("  ___ \n (_*_)\n (-.o)/\n (] [) \n (\" \")"));CHECK(snowman(31313131) == string("   _  \n  /_\\ \n/(O,.)>\n/(> <)>\n ( : )"));
+    CHECK(snowman(42424222) == string("  ___ \n (_*_)\n (-.o)/\n (] [) \n (\" \")"));
     CHECK(snowman(43242312) == string("  ___ \n (_*_)\n\\(o_-) \n ( : )\\\n (\" \")"));
     CHECK(snowman(33333433) == string("   _  \n  /_\\ \n (O_O) \n/(> <) \n (___)"));
 
@@ -84,15 +84,15 @@ TEST_CASE("Good snowman code") {
     CHECK(snowman(31421322) == string("   _  \n  /_\\ \n (-,o) \n<(] [)\\\n (\" \")"));
     CHECK(snowman(21114411) == string("  ___ \n .....\n (.,.) \n ( : ) \n ( : )"));
     CHECK(snowman(31313131) == string("   _  \n  /_\\ \n (O,.) \n/(> <)>\n ( : )"));
-    CHECK(snowman(33333443) == string("   _  \n  /_\\ \n/(O_O) \n (   ) \n (___)"));
+    CHECK(snowman(33333443) == string("   _  \n  /_\\ \n (O_O) \n/(   ) \n (___)"));
 
 
 
 //check all Base 
-    CHECK(snowman(11111111) == string("      \n _===_\n<(.,.)>\n<( : )>\n ( : )"));
-    CHECK(snowman(12121212) == string("      \n _===_\n<(..o)/\n<( : )/\n (\" \")"));
-    CHECK(snowman(33333433) == string("   _  \n  /_\\ \n/(O_O) \n/(> <) \n (___)"));
-    CHECK(snowman(12341424) == string("      \n _===_\n<(O.-) \n<(] [) \n (   )"));
+    CHECK(snowman(11111111) == string("      \n _===_\n (.,.) \n<( : )>\n ( : )"));
+    CHECK(snowman(12121212) == string("      \n _===_\n (..o)/\n<( : ) \n (\" \")"));
+    CHECK(snowman(33333433) == string("   _  \n  /_\\ \n (O_O) \n/(> <) \n (___)"));
+    CHECK(snowman(12341424) == string("      \n _===_\n (O.-) \n<(] [) \n (   )"));
 
 }
 
