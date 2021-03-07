@@ -1,7 +1,7 @@
-/**
+ /**
  * Demo program for snowman exercise.
  * 
- * Author: Erel Segal-Halevi
+ * Autor: Erel Segal-Halevi
  * Since : 2021-02
  */
 
@@ -12,7 +12,11 @@
 using namespace std;
 
 int main() {
-	cout << ariel::snowman(11114411) << endl;   /* Should print:
+cout << ariel::snowman(11114411) << endl; 
+
+
+	
+	  /* Should print:
 _===_
 (.,.)
 ( : )
