@@ -96,13 +96,6 @@ TEST_CASE("Good snowman code") {
 
 }
 
-
-
-
-    
-
-
-
 TEST_CASE("not legal 8 digit num ") {
     
     CHECK_THROWS(snowman(91111111));
@@ -149,6 +142,5 @@ TEST_CASE("negative 8 digit number") {
     CHECK_THROWS(snowman(-43214321));
     CHECK_THROWS(snowman(-32413241));
     CHECK_THROWS(snowman(-22222222));
-
 
 }

@@ -1,56 +1,59 @@
+#pragma once
 #include <string>
+#include <vector>
 
 namespace items{
-    const std:: string Hats[4]  = {
+    
+    const std::vector<std::string> Hats  = {
     "     \n _===_",
     " ___ \n .....",
     "  _  \n  /_\\ ",
     " ___ \n (_*_)",
 };
 
-const std::string Nose[4]  = {
+const std::vector<std::string> Nose{
     ",",
     ".",
     "_",
     " ",
 };
-const std::string Eye[4]  = {
+const std::vector<std::string> Eye {
     ".",
     "o",
     "O",
     "-",
 };
-const std::string LeftArmsup[4]  = {
+const std::vector<std::string> LeftArmsup {
     " ",
     "\\",
     " ",
     " ",
 };
-const std::string LeftArmsdown[4]  = {
+const std::vector<std::string> LeftArmsdown {
     "<",
     " ",
     "/",
     " ",
 };
-const std::string RightArmsup[4]  = {
+const std::vector<std::string> RightArmsup {
     " ",
     "/",
     " ",
     " ",
 };
-const std::string RightArmsdown[4]  = {
+const std::vector<std::string> RightArmsdown {
     ">",
     " ",
     "\\",
     " ",
 };
-const std::string Torso[4]={
+const std::vector<std::string> Torso{
     " : ",
     "] [",
     "> <",
     "   ",
 };
-const std::string Base[4]={
+const std::vector<std::string> Base{
     " : ",
     "\" \"",
     "___",
