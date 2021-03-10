@@ -36,13 +36,13 @@ int count = 0;
 //Source : GeeksForGeeks
 }
 
-// string nospaces(string input) {
-// 	std::erase(input, ' ');
-// 	std::erase(input, '\t');
-// 	std::erase(input, '\n');
-// 	std::erase(input, '\r');
-// 	return input;
-// }
+string nospaces(string input) {
+	std::erase(input, ' ');
+	std::erase(input, '\t');
+	std::erase(input, '\n');
+	std::erase(input, '\r');
+	return input;
+}
 
 TEST_CASE("Good snowman code") {
 //check all Hats 
@@ -107,10 +107,8 @@ TEST_CASE("not legal 8 digit num ") {
     CHECK_THROWS(snowman(11111194));
     CHECK_THROWS(snowman(12431117));
 
-
 }
     
-   
 TEST_CASE("Less then 8 digit") {
     CHECK_THROWS(snowman(1));
     CHECK_THROWS(snowman(22));
@@ -120,9 +118,7 @@ TEST_CASE("Less then 8 digit") {
     CHECK_THROWS(snowman(121212));
     CHECK_THROWS(snowman(3321342));
 
-    
 }
-
 TEST_CASE("more then 8 digit") {
     CHECK_THROWS(snowman(555424266));
     CHECK_THROWS(snowman(252535343));
